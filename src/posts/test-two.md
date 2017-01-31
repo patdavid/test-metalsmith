@@ -1,6 +1,6 @@
 ---
-title: A test post Deux(2016)
-date: 2017-01-30T17:07:38-06:00 
+title: Test Deux (2016)
+date: 2016-01-31
 layout: posts.hbt
 ---
 

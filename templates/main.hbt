@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{{{ sitename }}}</title> 
+    </head>
+
+    <body>
+
+
+        {{#each pagination.files}}
+        <article>
+
+            <h1 class='post.title'><a href="/{{path}}">{{title}}</a></h1>
+
+            <!-- CONTENTS -->
+            {{{ this.contents }}}
+            <!-- /CONTENTS -->
+
+
+
+        </article>
+        <hr>
+        {{/each}}
+
+    </body>
+</html>
